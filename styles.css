@@ -117,6 +117,7 @@ body::before {
   position: absolute;
   inset: 0;
   border-radius: 30px;
+  padding: 2px;
   background: linear-gradient(135deg, #FFB7D5, #FF69B4, #FFB7D5);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
@@ -127,6 +128,7 @@ body::before {
 /* FRONT FACE */
 .front {
   color: #FF1493;
+  z-index: 2;
 }
 
 .front h1 {
@@ -232,6 +234,7 @@ button {
   overflow-x: hidden;
   max-height: 85vh;
   padding-top: 60px;
+  z-index: 1;
 }
 
 .back-button {
